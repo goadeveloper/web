@@ -12,6 +12,7 @@
     "lint": "eslint ."
   },
   "dependencies": {
+    "@nuxt/eslint": "^1.4.1",
     "@nuxthub/core": "^0.8.25",
     "nuxt": "^3.16.2",
     "vue": "^3.5.13",
@@ -30,6 +31,7 @@
       "@parcel/watcher",
       "esbuild",
       "sharp",
+      "unrs-resolver",
       "workerd"
     ]
   }
