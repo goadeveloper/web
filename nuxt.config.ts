@@ -14,14 +14,16 @@ export default defineNuxtConfig({
     public: {
       // Can be overridden by NUXT_PUBLIC_HELLO_TEXT environment variable
       helloText: 'Hello from the Edge 👋'
-    }
+    },
   },
   // https://nuxt.com/docs/getting-started/upgrade#testing-nuxt-4
   future: { compatibilityVersion: 4 },
   compatibilityDate: '2025-03-01',
 
   // https://hub.nuxt.com/docs/getting-started/installation#options
-  hub: {},
+  hub: {
+    database: true
+  },
 
   // Development config
   eslint: {
@@ -30,6 +32,11 @@ export default defineNuxtConfig({
         quotes: 'single',
         commaDangle: 'never'
       }
+    }
+  },
+  $development: {
+    hub: {
+      remote: true
     }
   }
 })
