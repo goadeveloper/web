@@ -1,4 +1,16 @@
 <script setup lang="ts">
+useSeoMeta({
+  title: 'Inicio',
+  description: 'Ingeniero de Sistemas. Desarrollador de Software',
+  ogTitle: 'Inicio',
+  ogDescription: 'Ingeniero de Sistemas. Desarrollador de Software',
+  ogImage: '/favicon.ico',
+  ogUrl: 'https://goadeveloper.pages.dev',
+  twitterTitle: 'Inicio',
+  twitterDescription: 'Ingeniero de Sistemas. Desarrollador de Software',
+  twitterImage: '/favicon.ico',
+  twitterCard: 'summary'
+})
 </script>
 
 <template>
